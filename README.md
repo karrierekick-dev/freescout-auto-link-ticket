@@ -1,7 +1,5 @@
 # About
-This [FreeScout](https://freescout.net) module Recognizes ticket numbers like #1234 and links them to the corresponding tickets.
-
-Nothing more.
+This [FreeScout](https://freescout.net) module recognizes ticket numbers like #1234 and links them to the corresponding tickets.
 
 # Requirements
 * Existing [FreeScout](https://freescout.net) installation
