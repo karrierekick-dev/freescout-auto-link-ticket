@@ -1,0 +1,13 @@
+{
+  "name": "Auto Link Ticket",
+  "alias": "autolinkticket",
+  "description": "Recognizes ticket numbers like #1234 and links them to the corresponding tickets.",
+  "author": "Daniel Kirsch <daniel.kirsch@karriere-kick.de>",
+  "version": "1.0",
+  "requires": [],
+  "providers": ["Modules\\AutoLinkTicket\\Providers\\EventServiceProvider"],
+  "aliases": {
+    "AutoLinkTicket": "Modules\\AutoLinkTicket\\Providers\\EventServiceProvider"
+  },
+  "files": ["start.php"]
+}
