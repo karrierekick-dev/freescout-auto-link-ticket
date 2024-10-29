@@ -2,6 +2,8 @@
 
 namespace Modules\AutoLinkTicket\Services;
 
+use App\Conversation;
+
 class LinkTicketService
 {
     public static function convertTicketNumbersToLinks($content)
@@ -10,8 +12,25 @@ class LinkTicketService
             '/#(\d+)/',
             function ($matches) {
                 $ticketId = $matches[1];
+                $title = "";
+
+                try {
+                    $conversation = Conversation::find($ticketId);
+                    if ($conversation) {
+                        $title = $conversation->subject;
+                    }
+                }
+                catch (\Exception $e) {}
+
                 $url = "/conversation/" . $ticketId;
-                return "<a href=\"{$url}\">#{$ticketId}</a>";
+
+                $link = "<a href=\"{$url}\"";
+                if ($title)
+                    $link .= " title=\"{$title}\"";
+
+                $link .= ">#{$ticketId}</a>";
+                return $link;
+
             },
             $content
         );
