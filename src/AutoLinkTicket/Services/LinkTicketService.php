@@ -9,7 +9,7 @@ class LinkTicketService
     public static function convertTicketNumbersToLinks($content)
     {
         return preg_replace_callback(
-            '/\B#(\d+)\b(?![^\s>]*")/', // (?![^\s>]*") is a negative lookahead to ensure the # symbol isn’t part of an HTML attribute containing # followed by a number within quotes.
+            '/(?<!:)\B#(\d+)\b(?![^\s>]*")/', // (?<!:) verhindert, dass z.B. "color:#333333" erfasst wird
             function ($matches) {
                 $ticketId = $matches[1];
                 $title = "";
@@ -19,8 +19,7 @@ class LinkTicketService
                     if ($conversation) {
                         $title = $conversation->subject;
                     }
-                }
-                catch (\Exception $e) {}
+                } catch (\Exception $e) {}
 
                 $url = "/conversation/" . $ticketId;
 
