@@ -11,5 +11,15 @@ Go to the "src" directory of this repository and copy the folder "AutoLinkTicket
 
 Go to the "Modules" section in FreeScout and activate "Auto Link Ticket"
 
-# Known issues
-The created link always gets a target="_blank" attribute. If you know the reason or a solution, please let me know.
+# Updates
+From version 1.1.0 onwards FreeScout can update this module via the Modules page (`latestVersionUrl` / `latestVersionZipUrl` in `module.json`).
+
+If you still run 1.0, install 1.1.0 once manually (copy `AutoLinkTicket` into `Modules/` or use the release ZIP). After that, in-app updates work.
+
+Release ZIPs: https://github.com/karrierekick-dev/freescout-auto-link-ticket/releases
+
+# Features
+* Links `#1234` in conversation threads to the matching ticket
+* Works with custom conversation numbers (`Settings → General → Conversation Number`)
+* Skips CSS colors (`#333333`) and HTML entities (`&#252;`) so umlauts/Cyrillic stay intact
+* Opens ticket links in the same tab (`target="_self"`)

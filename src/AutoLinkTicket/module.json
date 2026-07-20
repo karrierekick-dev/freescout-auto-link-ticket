@@ -3,11 +3,15 @@
   "alias": "autolinkticket",
   "description": "Recognizes ticket numbers like #1234 and links them to the corresponding tickets.",
   "author": "Daniel Kirsch <daniel.kirsch@karriere-kick.de>",
-  "version": "1.0",
+  "authorUrl": "https://github.com/karrierekick-dev",
+  "detailsUrl": "https://github.com/karrierekick-dev/freescout-auto-link-ticket",
+  "version": "1.1.0",
   "requires": [],
   "providers": ["Modules\\AutoLinkTicket\\Providers\\EventServiceProvider"],
   "aliases": {
     "AutoLinkTicket": "Modules\\AutoLinkTicket\\Providers\\EventServiceProvider"
   },
-  "files": ["start.php"]
+  "files": ["start.php"],
+  "latestVersionUrl": "https://raw.githubusercontent.com/karrierekick-dev/freescout-auto-link-ticket/main/src/AutoLinkTicket/module.json",
+  "latestVersionZipUrl": "https://github.com/karrierekick-dev/freescout-auto-link-ticket/releases/latest/download/AutoLinkTicket.zip"
 }

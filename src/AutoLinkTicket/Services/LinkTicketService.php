@@ -15,23 +15,28 @@ class LinkTicketService
             //   via HTMLPurifier Core.EscapeNonASCIICharacters erzeugt
             '/(?<![&:])\B#(\d+)\b(?![^\s>]*")/',
             function ($matches) {
-                $ticketId = $matches[1];
+                $ticketNumber = (int) $matches[1];
                 $title = "";
+                $conversationId = $ticketNumber;
 
                 try {
-                    $conversation = Conversation::find($ticketId);
+                    // Bei custom_number ist die angezeigte Ticketnummer ≠ DB-ID
+                    $field = Conversation::numberFieldName();
+                    $conversation = Conversation::where($field, $ticketNumber)->first();
                     if ($conversation) {
                         $title = $conversation->subject;
+                        $conversationId = $conversation->id;
                     }
                 } catch (\Exception $e) {}
 
-                $url = "/conversation/" . $ticketId;
+                $url = "/conversation/" . $conversationId;
 
                 $link = "<a href=\"{$url}\"";
                 if ($title)
                     $link .= " title=\"" . htmlspecialchars($title, ENT_QUOTES, 'UTF-8') . "\"";
 
-                $link .= " target=\"_self\">#{$ticketId}</a>";
+                // data-target: FreeScout setzt in processLinks() alle Links auf target=_blank
+                $link .= " target=\"_self\" data-target=\"_self\">#{$ticketNumber}</a>";
                 return $link;
             },
             $content
