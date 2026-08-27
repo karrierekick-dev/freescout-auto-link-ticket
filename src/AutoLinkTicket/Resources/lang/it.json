@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Collegamento automatico dei ticket",
+  "Trigger Patterns": "Modelli di attivazione",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Un modello per riga. Viene creato un collegamento al ticket corrispondente per ogni numero preceduto direttamente da uno di questi modelli.",
+  "Examples:": "Esempi:",
+  "or": "o",
+  "case-insensitive, a space before the number is optional": "non distingue maiuscole/minuscole, uno spazio prima del numero è opzionale"
+}

@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "پیوند خودکار تیکت‌ها",
+  "Trigger Patterns": "الگوهای راه‌انداز",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "در هر خط یک الگو. برای هر عددی که مستقیماً یکی از این الگوها پیش از آن آمده باشد، پیوندی به تیکت مربوط ساخته می‌شود.",
+  "Examples:": "نمونه‌ها:",
+  "or": "یا",
+  "case-insensitive, a space before the number is optional": "به بزرگی و کوچکی حروف حساس نیست؛ فاصله قبل از عدد اختیاری است"
+}

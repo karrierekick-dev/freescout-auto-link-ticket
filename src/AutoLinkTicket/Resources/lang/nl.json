@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Tickets automatisch koppelen",
+  "Trigger Patterns": "Triggerpatronen",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Eén patroon per regel. Voor elk nummer dat direct wordt voorafgegaan door een van deze patronen, wordt een link naar het bijbehorende ticket gemaakt.",
+  "Examples:": "Voorbeelden:",
+  "or": "of",
+  "case-insensitive, a space before the number is optional": "hoofdletterongevoelig, een spatie voor het nummer is optioneel"
+}

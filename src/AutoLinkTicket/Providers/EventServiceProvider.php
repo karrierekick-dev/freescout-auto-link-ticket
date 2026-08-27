@@ -12,6 +12,7 @@ class EventServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadViewsFrom(__DIR__ . '/../Resources/views', self::MODULE_ALIAS);
+        $this->loadJsonTranslationsFrom(__DIR__ . '/../Resources/lang');
 
         \Eventy::addFilter('thread.body_output', function ($content, $thread) {
             return LinkTicketService::convertTicketNumbersToLinks($content);

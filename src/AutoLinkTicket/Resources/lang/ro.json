@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Link automat către tichete",
+  "Trigger Patterns": "Modele de declanșare",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Un model pe linie. Se creează un link către tichetul corespunzător pentru fiecare număr precedat direct de unul dintre aceste modele.",
+  "Examples:": "Exemple:",
+  "or": "sau",
+  "case-insensitive, a space before the number is optional": "fără distincție între majuscule și minuscule; un spațiu înaintea numărului este opțional"
+}

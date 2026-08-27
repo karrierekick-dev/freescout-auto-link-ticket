@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Tickets automatisch verlinken",
+  "Trigger Patterns": "Auslösemuster",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Ein Muster pro Zeile. Für jede Zahl, der eines dieser Muster unmittelbar vorausgeht, wird ein Link zum zugehörigen Ticket erzeugt.",
+  "Examples:": "Beispiele:",
+  "or": "oder",
+  "case-insensitive, a space before the number is optional": "Groß-/Kleinschreibung wird ignoriert, ein Leerzeichen vor der Zahl ist optional"
+}

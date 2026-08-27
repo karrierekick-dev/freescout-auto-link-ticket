@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "ربط التذاكر تلقائيًا",
+  "Trigger Patterns": "أنماط التشغيل",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "نمط واحد في كل سطر. يتم إنشاء رابط إلى التذكرة المقابلة لكل رقم يسبقه مباشرة أحد هذه الأنماط.",
+  "Examples:": "أمثلة:",
+  "or": "أو",
+  "case-insensitive, a space before the number is optional": "لا يفرّق بين الأحرف الكبيرة والصغيرة، والمسافة قبل الرقم اختيارية"
+}

@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Link automático de tickets",
+  "Trigger Patterns": "Padrões de acionamento",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Um padrão por linha. Um link para o ticket correspondente é criado para cada número diretamente precedido por um desses padrões.",
+  "Examples:": "Exemplos:",
+  "or": "ou",
+  "case-insensitive, a space before the number is optional": "não diferencia maiúsculas de minúsculas; um espaço antes do número é opcional"
+}

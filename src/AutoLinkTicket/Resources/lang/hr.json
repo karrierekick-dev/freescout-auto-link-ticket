@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Automatsko povezivanje tiketa",
+  "Trigger Patterns": "Okidački uzorci",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Jedan uzorak po retku. Veza na odgovarajući tiket stvara se za svaki broj kojemu izravno prethodi jedan od ovih uzoraka.",
+  "Examples:": "Primjeri:",
+  "or": "ili",
+  "case-insensitive, a space before the number is optional": "ne razlikuje velika i mala slova, razmak ispred broja je neobavezan"
+}

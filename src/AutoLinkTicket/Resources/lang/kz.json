@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Тикеттерді автоматты байланыстыру",
+  "Trigger Patterns": "Іске қосу үлгілері",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Әр жолға бір үлгі. Осы үлгілердің бірі тікелей алдында тұрған әрбір нөмір үшін сәйкес тикетке сілтеме жасалады.",
+  "Examples:": "Мысалдар:",
+  "or": "немесе",
+  "case-insensitive, a space before the number is optional": "әріп регистрі ескерілмейді, нөмірдің алдындағы бос орын міндетті емес"
+}

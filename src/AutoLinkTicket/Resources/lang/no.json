@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Automatisk ticket-lenking",
+  "Trigger Patterns": "Utløsermønstre",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Ett mønster per linje. Det opprettes en lenke til den tilhørende ticketen for hvert nummer som er direkte innledet av ett av disse mønstrene.",
+  "Examples:": "Eksempler:",
+  "or": "eller",
+  "case-insensitive, a space before the number is optional": "skiller ikke mellom store og små bokstaver; mellomrom før nummeret er valgfritt"
+}

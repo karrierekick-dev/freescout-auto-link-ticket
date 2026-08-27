@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "チケットの自動リンク",
+  "Trigger Patterns": "トリガーパターン",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "1行に1つのパターン。これらのパターンのいずれかの直後にある番号ごとに、対応するチケットへのリンクが作成されます。",
+  "Examples:": "例:",
+  "or": "または",
+  "case-insensitive, a space before the number is optional": "大文字と小文字を区別しません。番号の前のスペースは任意です"
+}

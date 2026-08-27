@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "自動連結工單",
+  "Trigger Patterns": "觸發模式",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "每行一個模式。凡是緊接在這些模式之一後面的數字，都會產生指向對應工單的連結。",
+  "Examples:": "範例：",
+  "or": "或",
+  "case-insensitive, a space before the number is optional": "不區分大小寫，數字前的空格可省略"
+}

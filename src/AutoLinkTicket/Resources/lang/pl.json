@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Automatyczne linkowanie zgłoszeń",
+  "Trigger Patterns": "Wzorce wyzwalające",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Jeden wzorzec na linię. Link do odpowiedniego zgłoszenia jest tworzony dla każdej liczby bezpośrednio poprzedzonej jednym z tych wzorców.",
+  "Examples:": "Przykłady:",
+  "or": "lub",
+  "case-insensitive, a space before the number is optional": "bez rozróżniania wielkości liter, spacja przed liczbą jest opcjonalna"
+}

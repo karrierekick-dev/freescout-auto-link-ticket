@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Автопосилання на тікети",
+  "Trigger Patterns": "Шаблони розпізнавання",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Один шаблон на рядок. Посилання на відповідний тікет створюється для кожного номера, якому безпосередньо передує один із цих шаблонів.",
+  "Examples:": "Приклади:",
+  "or": "або",
+  "case-insensitive, a space before the number is optional": "без урахування регістру, пробіл перед номером необов’язковий"
+}

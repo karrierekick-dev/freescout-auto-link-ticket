@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "קישור אוטומטי לטיקטים",
+  "Trigger Patterns": "תבניות הפעלה",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "תבנית אחת בכל שורה. נוצר קישור לטיקט המתאים עבור כל מספר שקודמת לו ישירות אחת מהתבניות האלה.",
+  "Examples:": "דוגמאות:",
+  "or": "או",
+  "case-insensitive, a space before the number is optional": "לא מבחין בין אותיות גדולות לקטנות, רווח לפני המספר הוא אופציונלי"
+}

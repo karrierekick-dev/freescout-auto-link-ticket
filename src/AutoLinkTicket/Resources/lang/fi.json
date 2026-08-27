@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Automaattiset tikettlinkit",
+  "Trigger Patterns": "Tunnistusmallit",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Yksi kuvio riviä kohden. Linkki vastaavaan tikettiin luodaan jokaiselle numerolle, jota jokin näistä kuvioista välittömästi edeltää.",
+  "Examples:": "Esimerkkejä:",
+  "or": "tai",
+  "case-insensitive, a space before the number is optional": "kirjainkokoa ei huomioida, välilyönti ennen numeroa on valinnainen"
+}

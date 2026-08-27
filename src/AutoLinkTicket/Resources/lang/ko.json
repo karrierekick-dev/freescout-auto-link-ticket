@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "티켓 자동 링크",
+  "Trigger Patterns": "트리거 패턴",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "한 줄에 하나의 패턴. 이 패턴 중 하나가 바로 앞에 오는 숫자마다 해당 티켓 링크가 만들어집니다.",
+  "Examples:": "예시:",
+  "or": "또는",
+  "case-insensitive, a space before the number is optional": "대소문자를 구분하지 않으며, 숫자 앞 공백은 선택 사항입니다"
+}

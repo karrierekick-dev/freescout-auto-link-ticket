@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Enllaç automàtic de tiquets",
+  "Trigger Patterns": "Patrons d’activació",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Un patró per línia. Es crea un enllaç al tiquet corresponent per a cada número precedit directament per un d’aquests patrons.",
+  "Examples:": "Exemples:",
+  "or": "o",
+  "case-insensitive, a space before the number is optional": "no distingeix majúscules, un espai abans del número és opcional"
+}

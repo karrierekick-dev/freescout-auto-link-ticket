@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Automatické odkazy na tikety",
+  "Trigger Patterns": "Spúšťacie vzory",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Jeden vzor na riadok. Odkaz na príslušný tiket sa vytvorí pre každé číslo, ktorému bezprostredne predchádza jeden z týchto vzorov.",
+  "Examples:": "Príklady:",
+  "or": "alebo",
+  "case-insensitive, a space before the number is optional": "nerozlišuje veľkosť písmen, medzera pred číslom je voliteľná"
+}

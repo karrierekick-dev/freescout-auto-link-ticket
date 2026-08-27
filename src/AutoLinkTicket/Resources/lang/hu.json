@@ -1,0 +1,8 @@
+{
+  "Auto Link Ticket": "Jegyek automatikus hivatkozása",
+  "Trigger Patterns": "Kiváltó minták",
+  "One pattern per line. A link to the corresponding ticket is created for every number directly preceded by one of these patterns.": "Soronként egy minta. A megfelelő jegyre mutató hivatkozás minden olyan számhoz létrejön, amelyet közvetlenül e minták egyike előz meg.",
+  "Examples:": "Példák:",
+  "or": "vagy",
+  "case-insensitive, a space before the number is optional": "nem különbözteti meg a kis- és nagybetűket, a szám előtti szóköz opcionális"
+}
