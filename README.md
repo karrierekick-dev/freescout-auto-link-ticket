@@ -19,7 +19,8 @@ If you still run 1.0, install 1.1.0 once manually (copy `AutoLinkTicket` into `M
 Release ZIPs: https://github.com/karrierekick-dev/freescout-auto-link-ticket/releases
 
 # Features
-* Links `#1234` in conversation threads to the matching ticket
+* Links ticket numbers in conversation threads to the matching ticket
+* Configurable trigger prefixes (Settings → Auto Link Ticket), e.g. `#123`, `Case 123`, `XYZ-123`
+* Default remains `#`; CSS colors (`#333333`) and HTML entities (`&#252;`) are skipped
 * Works with custom conversation numbers (`Settings → General → Conversation Number`)
-* Skips CSS colors (`#333333`) and HTML entities (`&#252;`) so umlauts/Cyrillic stay intact
 * Opens ticket links in the same tab (`target="_self"`)

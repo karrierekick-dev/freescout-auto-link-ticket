@@ -5,7 +5,7 @@
   "author": "Daniel Kirsch <daniel.kirsch@karriere-kick.de>",
   "authorUrl": "https://github.com/karrierekick-dev",
   "detailsUrl": "https://github.com/karrierekick-dev/freescout-auto-link-ticket",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "requires": [],
   "providers": ["Modules\\AutoLinkTicket\\Providers\\EventServiceProvider"],
   "aliases": {
